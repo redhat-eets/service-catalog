@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: telco-verification
-  title: telco-verification
+  title: Telco Verification
   namespace: telco-verification
   description: The telco verification team focuses on driving telco quality and telco solution lifecycle managemant
   links:
