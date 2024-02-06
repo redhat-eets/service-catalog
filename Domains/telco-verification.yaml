@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: telco-verification
+  title: telco-verification
+  namespace: telco-verification
+  description: The telco verification team focuses on driving telco quality and telco solution lifecycle managemant
+  links:
+    - url: https://source.redhat.com/departments/products_and_global_engineering/ecosystem_engineering/telco_engineering/groups/verification
+      title: Source
+  tags:
+    - telco
+    - qe
+    - slcm
+spec:
+  owner: group:redhat/telco-verification

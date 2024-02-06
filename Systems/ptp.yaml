@@ -1,0 +1,20 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ptp-tests
+  title: Telco Engineering PTP Tests Platform
+  namespace: telco-verification
+  description: Telco Engineering PTP Tests Platform
+  tags:
+    - telco
+    - qe
+    - slcm
+    - ptp
+  links:
+  - url: https://chat.google.com/room/AAAAAh3yDbo?cls=7
+    title: gChat
+    icon: chat
+spec:
+  owner: grpup:redhat/vse-tse-passwords
+  domain: telco-verification/telco-verification
