@@ -16,5 +16,5 @@ metadata:
     title: gChat
     icon: chat
 spec:
-  owner: grpup:redhat/vse-tse-passwords
+  owner: group:redhat/vse-tse-passwords
   domain: telco-verification/telco-verification
