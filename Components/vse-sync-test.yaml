@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vse-sync-test
+  description: Tests for PTP synchronization use cases.
+  annotations:
+    github.com/project-slug: redhat-partner-solutions/vse-sync-test
+  links:
+    - url: https://github.com/redhat-partner-solutions/vse-sync-test/tree/main/doc
+      title: documentation
+    - url: https://chat.google.com/room/AAAAAh3yDbo?cls=7
+      title: gChat
+      icon: chat
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:redhat/vse-tse-passwords
+  system: telco-verification/ptp-tests
+  domain: telco-verification/telco-verification
+  contacts:
+    - label: Developers
+      users:
+        - user:redhat/jnunez
+        - user:redhat/micosta
+        - user:redhat/cwheeler
+        - user:redhat/nafridma
+        - user:redhat/dcain

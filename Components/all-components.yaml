@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: telco-verification-components
+  title: Telco Verification Componenets
+  namespace: telco-verification
+  description: A collection of all telco verification components.
+spec:
+  owner: group:redhat/vse-tse-passwords
+  targets:
+    - ./vse-sync-test.yaml
