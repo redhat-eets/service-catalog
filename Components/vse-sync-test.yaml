@@ -5,6 +5,8 @@ metadata:
   description: Tests for PTP synchronization use cases.
   annotations:
     github.com/project-slug: redhat-partner-solutions/vse-sync-test
+    jira/project-key: CTONET
+    jira/label: CTONET-ATE
   links:
     - url: https://github.com/redhat-partner-solutions/vse-sync-test/tree/main/doc
       title: documentation
