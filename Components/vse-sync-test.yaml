@@ -6,7 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: redhat-partner-solutions/vse-sync-test
     jira/project-key: CTONET
-    jira/label: CTONET-ATE
+    jira/label: INTEL-TEST-HARNESS
   links:
     - url: https://github.com/redhat-partner-solutions/vse-sync-test/tree/main/doc
       title: documentation
